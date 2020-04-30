@@ -1,0 +1,23 @@
+git init // make a git repository
+
+git clone <Repository URL>  // get data from the Repository of URL
+
+git status // check the status at the moment
+
+git rm 
+
+git remote add <nickname> <Repository URL of co-worker>
+
+git remote -v   // check if it is added
+
+git add <files>  // git add --all, add the data/files to staging area.
+
+git commit -m 'messages'  // commit the data added with 'messages'
+
+git push origin<nickname> master // push the data you added to origin repository
+
+git pull <nickname> master  // get the 'nickname's repository
+
+git checkout <branch name>  // change working space to 'branch name'
+
+git checkout -b  <branch name>  // generate the 'branch name' branch and move to the branch
