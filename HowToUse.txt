@@ -21,3 +21,8 @@ git pull <nickname> master  // get the 'nickname's repository
 git checkout <branch name>  // change working space to 'branch name'
 
 git checkout -b  <branch name>  // generate the 'branch name' branch and move to the branch
+
+
+git fetch upstream
+
+git merge upstream/master
