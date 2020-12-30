@@ -1,0 +1,21 @@
+// reference : https://velog.io/@godori/Git-Rebase
+
+1. Merge(3-way merge) : all the records of works
+
+the last commit on the branch of mine + the last commit on the branch of teammate + the commit on branch of a common ancester 
+
+2. Rebase : like no other branchs haven't existed but only main branch
+
+
+a - b(base) -f1-f2 (feature), last commit is f2
+            -m1-m2 (main), last commit is m2
+
+(1) git checkout feature
+(2) git rebase main   
+     (a) f1, f2 are saved as a patch and change head to main
+     (b) applying f1 to m2(new commit called f1' is made), applying f2 to f1'(new commit called f2' is made)
+     (c) make feature branch indicate f2'
+(3) git merge feature
+
+a - b(base) -m1-m2-f1'-f2' 
+            
