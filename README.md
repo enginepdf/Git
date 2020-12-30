@@ -17,7 +17,8 @@ Github : git web hosting service
 
 ## Keywords
 
- - Repository(Git Directory) : history, tag, branch
+ - Repository(Git Directory) : a space for data with history, tag,    
+   branch
 
  - Working Tree : a specific version Checkout-ed from git directory
    (Repository), working directory
