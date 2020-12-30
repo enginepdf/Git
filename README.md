@@ -17,8 +17,7 @@ Github : git web hosting service
 
 ## Keywords
 
- - Repository(Git Directory) : a space for data with history, tag,    
-   branch
+ - Repository(Git Directory) : a space for data with history, tag, branch
 
  - Working Tree : a specific version Checkout-ed from git directory
    (Repository), working directory
@@ -26,7 +25,7 @@ Github : git web hosting service
  - Staging Area(Index area) : ready for committing, save the state 
    at the moment to 'index'
    
- - Commit : save to the repository(modified -> staging area -> staged)
+ - Commit : save to the repository(modified -> commit(staging area) -> staged)
 
  - Head : currently working branch
 
