@@ -25,7 +25,7 @@ Github : git web hosting service
  - Staging Area(Index area) : ready for committing, save the state 
    at the moment to 'index'
    
- - Commit : save to the repository(modified -> commit(staging area) -> staged)
+ - Commit : save to the head(modified -> commit(staging area) -> staged)
 
  - Head : currently working branch
 
