@@ -2,6 +2,15 @@ Configuration Management Tool
 
 Github : git web hosting service
 
+## Flows
+
+Git Flow : feature > develop > release > hotfix > main
+
+GitHub Flow : branch name represents the things on working related at the moment
+              push, pull request, merge into main, deployment after
+
+GitLab Flow : Production branch added
+
 ## Traits 
 
 1. Distributed development
