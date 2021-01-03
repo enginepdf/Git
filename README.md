@@ -1,4 +1,4 @@
-Configuration Management Tool
+VCS(Version Control System), Configuration Management Tool
 
 Github : git web hosting service
 
