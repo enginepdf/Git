@@ -33,6 +33,7 @@ GitLab Flow : Production branch added
 
  - Staging Area(Index area) : ready for committing, save the state 
    at the moment to 'index'
+   
    'git add' command adds a change in the working directory to the staging area
    
  - Commit : save to the head(modified -> git add(staged) -> git commit -> head)
