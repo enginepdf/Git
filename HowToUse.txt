@@ -35,3 +35,22 @@ git config --global user.email 'email'
 git log
 
 git log --graph
+
+
+* git stash
+
+git stash   // 아직 마무리하지 않은 작업을 스택에 잠시 저장할 수 있도록 하는 명령어. commit 하지 않고 나중에 다시 작업 재개
+
+git stash list
+
+git stash apply
+
+git stash drop [stash name] // 스택에 남아 있는 stash를 제거
+
+git stash pop  // git stash apply +  git stash pop
+
+git stash show -p | git apply -R  // 가장 최근의 stash 사용하여 패치 만들어 그것을 거꾸로 적용.(stash 적용한 것 되돌림)
+
+
+git config  --global alias.c commit
+    git c -m 'Commit Message'
