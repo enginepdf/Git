@@ -31,7 +31,7 @@ GitLab Flow : Production branch added
  - Working Tree : a specific version Checkout-ed from git directory
    (Repository), working directory
 
-    Working directory -> (Stage) -> Staged Snapshot -> (Commit) -> Committed Snapshots
+    Working directory -> (git add) -> Staged Snapshot -> (git commit) -> Committed Snapshots
 
  - Staging Area(Index area) : ready for committing, save the state 
    at the moment to 'index'
