@@ -40,10 +40,15 @@ git log --graph
 * git stash
 
 git stash   // 아직 마무리하지 않은 작업을 스택에 잠시 저장할 수 있도록 하는 명령어. commit 하지 않고 나중에 다시 작업 재개
+            // stash의 저장 영역은 스택 구조
+            // === git stash save  스택에 새로운 stash가 만들어지고 working directory는 깨끗해짐
 
-git stash list
 
-git stash apply
+git stash list // cat .git/refs/stash
+
+git stash apply // 작업 가져오기
+
+git stash apply --index // Staged 상태가지 복원
 
 git stash drop [stash name] // 스택에 남아 있는 stash를 제거
 
