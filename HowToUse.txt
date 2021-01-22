@@ -30,7 +30,7 @@ git checkout -b  <branch name>  // generate the 'branch name' branch and move to
 
 git fetch upstream
 
-git merge upstream/master
+git merge upstream/master  // git fetch + git merge --> git pull
 
 git config --list
 

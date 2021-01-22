@@ -27,6 +27,7 @@ GitLab Flow : Production branch added
 ## Keywords
 
  - Repository(Git Directory) : a space for data with history, tag, branch
+                               when you clone a remote repository, an alias called 'origin' referencing to the remote repository URL is enrolled (git remote -v)
 
  - Working Tree : a specific version Checkout-ed from git directory
    (Repository), working directory
