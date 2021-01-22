@@ -4,47 +4,45 @@ Github : git web hosting service
 
 ## Flows
 
-Git Flow : feature > develop > release > hotfix > main
+    Git Flow : feature > develop > release > hotfix > main
 
-GitHub Flow : branch name represents the things on working related at the moment
-              push, pull request, merge into main, deployment after
+    GitHub Flow : branch name represents the things on working related at the moment
+                  push, pull request, merge into main, deployment after
 
-GitLab Flow : Production branch added
+    GitLab Flow : Production branch added
 
 ## Traits 
 
-1. Distributed development
+    1. Distributed development
 
-2. Strong support for non-linear development
+    2. Strong support for non-linear development
 
-3. Efficient handling of large projects
+    3. Efficient handling of large projects
 
-4. Cryptographic authentication of history
+    4. Cryptographic authentication of history
 
-5. Toolkit design
+    5. Toolkit design
 
 
 ## Keywords
 
- - Repository(Git Directory) : a space for data with history, tag, branch
-                               when you clone a remote repository, an alias called 'origin' referencing to the remote repository URL is enrolled (git remote -v)
+    - Repository(Git Directory) : a space for data with history, tag, branch
+                                  when you clone a remote repository, an alias called 'origin' referencing to the remote repository URL is enrolled (git remote -v)
 
- - Working Tree : a specific version Checkout-ed from git directory
-   (Repository), working directory
+    - Working Tree : a specific version Checkout-ed from git directory(Repository), working directory
 
-    Working directory -> (git add) -> Staged Snapshot -> (git commit) -> Committed Snapshots
+                     Working directory -> (git add) -> Staged Snapshot -> (git commit) -> Committed Snapshots
 
- - Staging Area(Index area) : ready for committing, save the state 
-   at the moment to 'index'
+    - Staging Area(Index area) : ready for committing, save the state at the moment to 'index'
    
-   'git add' command adds a change in the working directory to the staging area
+                                 'git add' command adds a change in the working directory to the staging area
    
- - Commit : save to the head(modified -> git add(staged) -> git commit -> head)
+    - Commit : save to the head(modified -> git add(staged) -> git commit -> head)
 
- - Head : currently working branch
+    - Head : currently working branch
 
- - Branch : independent working area
+    - Branch : independent working area
 
- - Merge : merging different two branches into one
+    - Merge : merging different two branches into one
 
 
