@@ -1,3 +1,8 @@
+* reference
+
+https://backlog.com/git-tutorial/kr/stepup/stepup5_1.html
+
+
 git init // make a git repository
 
 git clone <Repository URL>  // get data from the Repository of URL
@@ -59,3 +64,30 @@ git stash show -p | git apply -R  // 가장 최근의 stash 사용하여 패치 
 
 git config  --global alias.c commit
     git c -m 'Commit Message'
+
+
+* tag
+
+    commit을 참조하기 쉽도록 알기 쉬운 이름을 붙이는 것
+    Lightweight tag(이름만), Annotated tag(설명, 서명, 이름 등 상세 정보)
+
+    mkdir tag-test
+    cd tag-test
+    git init  // Initialized empty Git repository in Desktop/tag-test/.git/
+    touch test.txt
+    git add .
+    git commit -m 'first commit'
+
+    git tag first  // 현재 'HEAD'가 가리키고 있는 커밋에 'first'라는 태그 달려고 함
+    git tag // first
+    
+    git log --decorate   // commit <hashed code> (HEAD, tag: firstTag, main)
+                            Author, Data
+                            first commit
+
+    git tag -a <tagname>   // 주석이 달린 태그 추가
+    git tag -am 'second tag' second   // 현재 'HEAD'가 가리키고 있는 커밋에 'second'이라는 주석이 달린 태그 달기
+
+    git tag -n  // first 'first commit'    second 'second Tag'
+
+    git tag -d <tagname>   // delete the tagname
